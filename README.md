@@ -4,7 +4,12 @@
   </a>
 </p>
 <h1 align="center">Chess system</h1>
-<p align="center">This is a chess system built in Java, designed to operate from the terminal. This project allows chess enthusiasts to play full games of chess directly from their computer's terminal.</p>
+<p align="center">This is a chess system built in 
+Java, designed to operate from the terminal. This project 
+allows chess enthusiasts to play full games of chess directly from 
+their computer's terminal.</p>  
+Project made based on the Java course by Professor Nelio Alves.
+ 
 
 ## Table of Contents
 
@@ -59,10 +64,10 @@ select the target. For example: a2 to choose column a and row 2.
 
 8 R N B Q K B N R  
 7 P P P P P P P P  
-6 -- -- -- -- -- -- -- --  
-5 -- -- -- -- -- -- -- --  
-4 -- -- -- -- -- -- -- --  
-3 -- -- -- -- -- -- -- --  
+6 - - - - - - - -  
+5 - - - - - - - -    
+4 - - - - - - - -   
+3 - - - - - - - -  
 2 P P P P P P P P  
 1 R N B Q K B N R  
 --A B B D E F G H  
