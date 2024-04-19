@@ -33,9 +33,14 @@ public class Main {
                 System.out.println("Target: ");
                 ChessPosition target = UI.readChessPosition(scanner);
 
-                ChessPiece capturedePiece = chessMatch.performChessMove(source,target);
-                if(capturedePiece != null){
-                    captured.add(capturedePiece);
+                ChessPiece capturedPiece = chessMatch.performChessMove(source,target);
+                if(capturedPiece != null){
+                    captured.add(capturedPiece);
+                }
+
+                if(chessMatch.getPromoted() != null){
+                    System.out.println("Enter piece for promotion (B/N/R/Q):");
+                    chessMatch.replacePromotedPiece(scanner.nextLine());
                 }
             }catch (ChessException | InputMismatchException exception){
                 System.out.println(exception.getMessage());
